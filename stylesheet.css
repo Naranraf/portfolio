@@ -643,7 +643,7 @@ position: relative;
 }
 }
 
-@media (max-width: 840px){
+@media (max-width: 540px){
     .items {
         position: center;
         display:inline-block; 
