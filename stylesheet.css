@@ -9,10 +9,10 @@
 }
 
 :root{
-    --bg-color:#ffffff;
-    --text-color:#000;
-    --second-color: #a09dab;
-    --main-color: #f75023;
+    --bg-color:#fffffe;
+    --text-color:#588157;
+    --second-color: #588157;
+    --main-color: #606c38;
     --big-font: 5rem;
     --h2-font:3rem;
     --p-font: 1.1rem;
@@ -177,7 +177,7 @@ font-weight: 500;
 
 }
 .btn{
-background-color: #f75023;
+background-color:var(--main-color);
 display: inline-block;
 color: var(--bg-color);
 font-size: var(--p-font);
@@ -244,7 +244,7 @@ header.sticky{
 } 
 
 .sub-box:hover{
-    background:#ffffff ;
+    background:var(--bg-color);
 box-shadow: 18px 0px 87px 0px rgba(0, 0, 0, 0.2);
 border-radius: 12px;
 will-change: transform;
@@ -305,14 +305,14 @@ margin-bottom: 45px;
 }
 
 .heading h3{
-    color: var(--main-color);
+    color: var(--bg-color);
     font-size:  20px;
     font-weight: 500;
 }
 
 .heading p{
     font-size :var(--p-font);
-    color: var(--second-color);
+    color: var(--bg-color);
     line-height: 28px;
 }
 
@@ -479,7 +479,7 @@ transition: all .40s;
 
 .download{
     border:solid;
-    border-color: #f75023;
+    border-color: #588157;
 }
 
 .email{
