@@ -114,7 +114,7 @@ padding: 10px 27px;
     padding: 100px 18%;
     height:100% ;
     width: 100%;
-    background: url(/My-first-portfolio/img/background.jpg);
+    background: url(/img/background.jpg);
     background-size: cover;
     background-position: relative;
     display: grid;
@@ -441,6 +441,7 @@ background: linear-gradient(rgba(0,0,0,0.5 )0%, #0000008f);
 }
 
 .layer h3{
+    top:50px;
 position: absolute;
 width: 100%;
 font-size: 25px;
@@ -476,66 +477,34 @@ transition: all .40s;
     opacity: 1;
 }
 
-.contact{
-    background:#8067f0eb;
-    width: 64%;
-    margin: 100px auto; 
-    padding: 70px 150px;
+.download{
+    border:solid;
+    border-color: #f75023;
+}
+
+.email{
+    height: 40px;
+    width: 300px;
+    color: white;
+    background-color:var(--main-color);
+    margin: 150px auto; 
+    padding: 150px auto;
     display: flex;
     align-items:center;
     text-align:center;
     justify-content: center;
     border-radius:12px ;
-    background-image:url(/My-first-portfolio/img/intro.png);
+    background-image:url(/img/intro.png);
     background-size:cover;
-
-}
-.center h3{
-    
-font-size: 30px;
-font-weight: 500;
-margin-bottom: 3px;
-color: var(--bg-color);
-
 }
 
-.center p{
-    font-size: var(--p-font);
-    color:var(--bg-color);
-    line-height: 26px;
-    margin-bottom:25px;
-
-}
-
-.contact .action form input[type="email"]{
-max-width: 100%;
-width: 500px;
-padding: 12px 15px;
-background: var(--bg-color);
-color: var(--text-color);
-border:none;
-outline:none;
-margin:0 10px 20px 0;
-border-radius: 30px;
-}
-
-.contact .action form input[type="submit"]{
-padding: 12px 40px;
-background: var(--main-color);
-color: var(--bg-color);
-border:none;
-outline:none;
-margin:0 10px 20px 0;
-border-radius: 30px;  
-cursor:pointer;
-}
 
 .ends{
     text-align: center;
     padding: 40px;
 
 }
-.ends ap{
+.ends p{
     font-size: var(--p-font);
     
 }
@@ -637,15 +606,14 @@ position: relative;
     }
 }
 
-@media (max-width: 540px){
-    .contact .action form input[type="email"]{
-    width: 310px;
-}
-}
 
 @media (max-width: 800px){
     .items {
         position: center;
         display:inline-block; 
     }  
+}
+
+.ends{
+    color: rgba(36, 142, 223, 0.541);
 }
